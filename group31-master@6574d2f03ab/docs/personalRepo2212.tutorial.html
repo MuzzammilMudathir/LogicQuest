@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>personalRepo2212.tutorial</title>
+    <meta name="generator" content="pydoctor 23.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          Logic Quest <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code class="thisobject"><a href="personalRepo2212.tutorial.html" class="internal-link" title="This module">tutorial</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.tutorial.Button.html" class="internal-link" title="personalRepo2212.tutorial.Button"><wbr></wbr>Button</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        <div class="childrenKindTitle">Functions</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#draw_text" class="internal-link" title="personalRepo2212.tutorial.draw_text">draw<wbr></wbr>_text</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#draw_tutorial_page_1" class="internal-link" title="personalRepo2212.tutorial.draw_tutorial_page_1">draw<wbr></wbr>_tutorial<wbr></wbr>_page<wbr></wbr>_1</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#draw_tutorial_page_2" class="internal-link" title="personalRepo2212.tutorial.draw_tutorial_page_2">draw<wbr></wbr>_tutorial<wbr></wbr>_page<wbr></wbr>_2</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#go_next_page" class="internal-link" title="personalRepo2212.tutorial.go_next_page">go<wbr></wbr>_next<wbr></wbr>_page</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#go_previous_page" class="internal-link" title="personalRepo2212.tutorial.go_previous_page">go<wbr></wbr>_previous<wbr></wbr>_page</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#main" class="internal-link" title="personalRepo2212.tutorial.main">main</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#main_menu" class="internal-link" title="personalRepo2212.tutorial.main_menu">main<wbr></wbr>_menu</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Variables</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#BG" class="internal-link" title="personalRepo2212.tutorial.BG">BG</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#BLACK" class="internal-link" title="personalRepo2212.tutorial.BLACK">BLACK</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#LIGHT_GRAY" class="internal-link" title="personalRepo2212.tutorial.LIGHT_GRAY">LIGHT<wbr></wbr>_GRAY</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#WHITE" class="internal-link" title="personalRepo2212.tutorial.WHITE">WHITE</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#WIN" class="internal-link" title="personalRepo2212.tutorial.WIN">WIN</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#back_button" class="internal-link" title="personalRepo2212.tutorial.back_button">back<wbr></wbr>_button</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#current_page" class="internal-link" title="personalRepo2212.tutorial.current_page">current<wbr></wbr>_page</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#HEIGHT" class="internal-link" title="personalRepo2212.tutorial.HEIGHT">HEIGHT</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#next_button" class="internal-link" title="personalRepo2212.tutorial.next_button">next<wbr></wbr>_button</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#previous_button" class="internal-link" title="personalRepo2212.tutorial.previous_button">previous<wbr></wbr>_button</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#screen_info" class="internal-link" title="personalRepo2212.tutorial.screen_info">screen<wbr></wbr>_info</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#total_pages" class="internal-link" title="personalRepo2212.tutorial.total_pages">total<wbr></wbr>_pages</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#WIDTH" class="internal-link" title="personalRepo2212.tutorial.WIDTH">WIDTH</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Package</span>
+        <code><a href="index.html" class="internal-link" title="The parent of this module">personal<wbr></wbr>Repo2212</a></code> 
+      </div>
+      
+      <div>
+        
+
+        <div class="childrenKindTitle">Modules</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.addQuestion.html" class="internal-link" title="personalRepo2212.addQuestion">add<wbr></wbr>Question</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.developerMode.html" class="internal-link" title="personalRepo2212.developerMode">developer<wbr></wbr>Mode</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.instructorMode.html" class="internal-link" title="personalRepo2212.instructorMode">instructor<wbr></wbr>Mode</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.landingPage.html" class="internal-link" title="personalRepo2212.landingPage">landing<wbr></wbr>Page</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.landingPage_1.html" class="internal-link" title="personalRepo2212.landingPage_1">landing<wbr></wbr>Page_1</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.Leaderboard.html" class="internal-link" title="personalRepo2212.Leaderboard"><wbr></wbr>Leaderboard</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.lightningMode.html" class="internal-link" title="personalRepo2212.lightningMode">lightning<wbr></wbr>Mode</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.main.html" class="internal-link" title="personalRepo2212.main">main</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.modemenu.html" class="internal-link" title="personalRepo2212.modemenu">modemenu</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.modemenu_1.html" class="internal-link" title="personalRepo2212.modemenu_1">modemenu<wbr></wbr>_1</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.Settings.html" class="internal-link" title="personalRepo2212.Settings"><wbr></wbr>Settings</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.Sign_In.html" class="internal-link" title="personalRepo2212.Sign_In"><wbr></wbr>Sign_<wbr></wbr>In</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.trainingMode.html" class="internal-link" title="personalRepo2212.trainingMode">training<wbr></wbr>Mode</a></code>
+            </div>
+        
+
+    </li><li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="personalRepo2212.tutorial.html" class="internal-link" title="personalRepo2212.tutorial">tutorial</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+        
+
+        
+         
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="module"><code><code><a href="index.html" class="internal-link">personalRepo2212</a></code><wbr></wbr>.<code><a href="personalRepo2212.tutorial.html" class="internal-link" title="personalRepo2212.tutorial">tutorial</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          module documentation
+        </div>
+
+        <div class="extrasDocstring">
+          
+          <p></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="pre">This module contains the implementation of a graphical user interface for the tutorial page of the game. It includes a customizable button class.
+
+Classes:
+    Button: Represents a clickable button in the GUI.
+
+Functions:
+    main_menu(): Navigates to the main menu of the application.
+    main(): The main function of the script that runs the GUI loop.
+Author: Kassem Kanjo
+Date: 30/3/2024
+Version: 1.0</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id22">
+  
+  
+  <tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="personalRepo2212.tutorial.Button.html" class="internal-link" title="personalRepo2212.tutorial.Button"><wbr></wbr>Button</a></code></td>
+    <td>class to create a clickable button in the GUI.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#draw_text" class="internal-link" title="personalRepo2212.tutorial.draw_text">draw<wbr></wbr>_text</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#draw_tutorial_page_1" class="internal-link" title="personalRepo2212.tutorial.draw_tutorial_page_1">draw<wbr></wbr>_tutorial<wbr></wbr>_page<wbr></wbr>_1</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#draw_tutorial_page_2" class="internal-link" title="personalRepo2212.tutorial.draw_tutorial_page_2">draw<wbr></wbr>_tutorial<wbr></wbr>_page<wbr></wbr>_2</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#go_next_page" class="internal-link" title="personalRepo2212.tutorial.go_next_page">go<wbr></wbr>_next<wbr></wbr>_page</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#go_previous_page" class="internal-link" title="personalRepo2212.tutorial.go_previous_page">go<wbr></wbr>_previous<wbr></wbr>_page</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#main" class="internal-link" title="personalRepo2212.tutorial.main">main</a></code></td>
+    <td>The main function of the script. Initializes the GUI and enters the main loop.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#main_menu" class="internal-link" title="personalRepo2212.tutorial.main_menu">main<wbr></wbr>_menu</a></code></td>
+    <td>Navigates to the main menu of the application.</td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#BG" class="internal-link" title="personalRepo2212.tutorial.BG">BG</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#BLACK" class="internal-link" title="personalRepo2212.tutorial.BLACK">BLACK</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#LIGHT_GRAY" class="internal-link" title="personalRepo2212.tutorial.LIGHT_GRAY">LIGHT<wbr></wbr>_GRAY</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#WHITE" class="internal-link" title="personalRepo2212.tutorial.WHITE">WHITE</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#WIN" class="internal-link" title="personalRepo2212.tutorial.WIN">WIN</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#back_button" class="internal-link" title="personalRepo2212.tutorial.back_button">back<wbr></wbr>_button</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#current_page" class="internal-link" title="personalRepo2212.tutorial.current_page">current<wbr></wbr>_page</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#HEIGHT" class="internal-link" title="personalRepo2212.tutorial.HEIGHT">HEIGHT</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#next_button" class="internal-link" title="personalRepo2212.tutorial.next_button">next<wbr></wbr>_button</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#previous_button" class="internal-link" title="personalRepo2212.tutorial.previous_button">previous<wbr></wbr>_button</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#screen_info" class="internal-link" title="personalRepo2212.tutorial.screen_info">screen<wbr></wbr>_info</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#total_pages" class="internal-link" title="personalRepo2212.tutorial.total_pages">total<wbr></wbr>_pages</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#WIDTH" class="internal-link" title="personalRepo2212.tutorial.WIDTH">WIDTH</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.draw_text">
+    
+  </a>
+  <a name="draw_text">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">draw_text</span><span class="function-signature">(text, size, position)</span>:
+    
+    <a class="headerLink" href="#draw_text" title="personalRepo2212.tutorial.draw_text">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.draw_tutorial_page_1">
+    
+  </a>
+  <a name="draw_tutorial_page_1">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">draw_tutorial_page_1</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#draw_tutorial_page_1" title="personalRepo2212.tutorial.draw_tutorial_page_1">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.draw_tutorial_page_2">
+    
+  </a>
+  <a name="draw_tutorial_page_2">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">draw_tutorial_page_2</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#draw_tutorial_page_2" title="personalRepo2212.tutorial.draw_tutorial_page_2">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.go_next_page">
+    
+  </a>
+  <a name="go_next_page">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">go_next_page</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#go_next_page" title="personalRepo2212.tutorial.go_next_page">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.go_previous_page">
+    
+  </a>
+  <a name="go_previous_page">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">go_previous_page</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#go_previous_page" title="personalRepo2212.tutorial.go_previous_page">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.main">
+    
+  </a>
+  <a name="main">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">main</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#main" title="personalRepo2212.tutorial.main">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>The main function of the script. Initializes the GUI and enters the main loop.</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="personalRepo2212.tutorial.main_menu">
+    
+  </a>
+  <a name="main_menu">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">main_menu</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#main_menu" title="personalRepo2212.tutorial.main_menu">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Navigates to the main menu of the application.</p></div>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="personalRepo2212.tutorial.BG">
+    
+  </a>
+  <a name="BG">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">BG</span> =
+    
+    <a class="headerLink" href="#BG" title="personalRepo2212.tutorial.BG">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>pygame.transform.scale(<wbr></wbr>pygame.image.load(<wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">backgrounds/bg_offwhite.jpg</span><span class="rst-variable-quote">'</span>),
+                       <wbr></wbr>(<wbr></wbr><a href="#WIDTH" class="internal-link" title="personalRepo2212.tutorial.WIDTH">WIDTH</a>, <wbr></wbr><a href="#HEIGHT" class="internal-link" title="personalRepo2212.tutorial.HEIGHT">HEIGHT</a>))</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="personalRepo2212.tutorial.BLACK">
+    
+  </a>
+  <a name="BLACK">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">BLACK</span>: <code>tuple[<wbr></wbr>int, <wbr></wbr><span class="rst-variable-ellipsis">...</span>]</code> =
+    
+    <a class="headerLink" href="#BLACK" title="personalRepo2212.tutorial.BLACK">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>(<wbr></wbr>0, <wbr></wbr>0, <wbr></wbr>0)</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="personalRepo2212.tutorial.LIGHT_GRAY">
+    
+  </a>
+  <a name="LIGHT_GRAY">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">LIGHT_GRAY</span>: <code>tuple[<wbr></wbr>int, <wbr></wbr><span class="rst-variable-ellipsis">...</span>]</code> =
+    
+    <a class="headerLink" href="#LIGHT_GRAY" title="personalRepo2212.tutorial.LIGHT_GRAY">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>(<wbr></wbr>200, <wbr></wbr>200, <wbr></wbr>200)</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="personalRepo2212.tutorial.WHITE">
+    
+  </a>
+  <a name="WHITE">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">WHITE</span>: <code>tuple[<wbr></wbr>int, <wbr></wbr><span class="rst-variable-ellipsis">...</span>]</code> =
+    
+    <a class="headerLink" href="#WHITE" title="personalRepo2212.tutorial.WHITE">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>(<wbr></wbr>255, <wbr></wbr>255, <wbr></wbr>255)</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="personalRepo2212.tutorial.WIN">
+    
+  </a>
+  <a name="WIN">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">WIN</span> =
+    
+    <a class="headerLink" href="#WIN" title="personalRepo2212.tutorial.WIN">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>pygame.display.set_mode(<wbr></wbr>(<wbr></wbr><a href="#WIDTH" class="internal-link" title="personalRepo2212.tutorial.WIDTH">WIDTH</a>, <wbr></wbr><a href="#HEIGHT" class="internal-link" title="personalRepo2212.tutorial.HEIGHT">HEIGHT</a>), <wbr></wbr>pygame.RESIZABLE)</code></pre></td></tr></table>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.back_button">
+    
+  </a>
+  <a name="back_button">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">back_button</span> =
+    
+    <a class="headerLink" href="#back_button" title="personalRepo2212.tutorial.back_button">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.current_page">
+    
+  </a>
+  <a name="current_page">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">current_page</span>: <code>int</code> =
+    
+    <a class="headerLink" href="#current_page" title="personalRepo2212.tutorial.current_page">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.HEIGHT">
+    
+  </a>
+  <a name="HEIGHT">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">HEIGHT</span> =
+    
+    <a class="headerLink" href="#HEIGHT" title="personalRepo2212.tutorial.HEIGHT">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.next_button">
+    
+  </a>
+  <a name="next_button">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">next_button</span> =
+    
+    <a class="headerLink" href="#next_button" title="personalRepo2212.tutorial.next_button">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.previous_button">
+    
+  </a>
+  <a name="previous_button">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">previous_button</span> =
+    
+    <a class="headerLink" href="#previous_button" title="personalRepo2212.tutorial.previous_button">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.screen_info">
+    
+  </a>
+  <a name="screen_info">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">screen_info</span> =
+    
+    <a class="headerLink" href="#screen_info" title="personalRepo2212.tutorial.screen_info">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.total_pages">
+    
+  </a>
+  <a name="total_pages">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">total_pages</span>: <code>int</code> =
+    
+    <a class="headerLink" href="#total_pages" title="personalRepo2212.tutorial.total_pages">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="personalRepo2212.tutorial.WIDTH">
+    
+  </a>
+  <a name="WIDTH">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">WIDTH</span> =
+    
+    <a class="headerLink" href="#WIDTH" title="personalRepo2212.tutorial.WIDTH">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for Logic Quest,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    23.9.1 at 2024-04-01 21:52:20.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
